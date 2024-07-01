@@ -1,5 +1,5 @@
 <robot name="base" xmlns:xacro="http://wiki.ros.org/xacro">
-    <!-- Macro for inertia matrix -->
+    <!-- Macro for inertia模擬世界的慣性慣性 matrix -->
     <xacro:macro name="sphere_inertial_matrix" params="m r">
         <inertial>
             <mass value="${m}" />
